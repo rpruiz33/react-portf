@@ -7,7 +7,7 @@ import Cards from './components/cards.jsx';
 import Carusel from './components/carusel.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <div className="bg-black" >
