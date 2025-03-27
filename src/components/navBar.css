@@ -1,0 +1,17 @@
+
+.bg-indigo {
+  background-color: rgb(143 192 176) !important;
+  color: white; 
+}
+
+.navbar {
+  padding: 1rem;
+  border-bottom: 52px solid #000;
+  color: #000;
+}
+
+  .nav-link {
+    &:hover {
+      color: yellow;
+    }
+  }
