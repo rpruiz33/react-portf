@@ -11,7 +11,7 @@ const formacion = [
     description: "🌐 MERN Stack (MongoDB, Express, React, Node.js)"
   },
   {
-    title: "🔧 Técnico electrónico",
+    title: "🛠️ Técnico electrónico",
     description: "⚡ Sistemas embebidos y circuitos digitales"
   }
 ];
