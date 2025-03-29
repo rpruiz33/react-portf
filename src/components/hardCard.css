@@ -1,69 +1,52 @@
 /* hardCard.scss */
+
 .cards-container {
   display: flex;
   justify-content: center;
   align-items: flex-start; /* Alinea las tarjetas en la parte superior */
   gap: 20px; /* Espaciado entre las tarjetas */
+  flex-wrap: wrap;
 }
 
 .card {
-  width: 43rem; /* Ancho fijo */
-  height: 13rem; /* Alto fijo para que todas las tarjetas tengan el mismo tamaño */
+  width: 18rem;
+  height: 14rem; /* Ajustado para mantener alineación */
   display: flex;
   flex-direction: column;
+  justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+  text-align: center;
 }
 
 .card-body {
-  flex: 1; /* Esto permite que el contenido del cuerpo ocupe el espacio disponible */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.cards-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.card {
-  width: 18rem;
-}
-
-.card-footer {
-  background-color: rgba(0, 136, 254, 1) !important; /* Fondo con color y opacidad */
-}
-
-.bg-custom {
-  background-color: rgba(0, 136, 254, 1) !important; /* Fondo con color y opacidad */
-}
-.cards-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.card {
-  width: 18rem;
-}
-
-.card-footer {
-  background-color: rgba(255, 255, 255, 1) !important; /* Fondo blanco */
-}
-
-.bg-custom {
   background-color: rgb(143 192 176) !important;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
-.text-dark {
-  color: #000 !important; /* Texto en color negro */
+.card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.border-light {
-  border-color: #f8f9fa !important; /* Borde de color claro */
+.card-title div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-footer {
+  background-color: #ffffff !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  min-height: 4rem;
 }

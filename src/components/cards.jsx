@@ -8,18 +8,18 @@ const formacion = [
   },
   {
     title: "🚀 Desarrollador Full Stack Web",
-    description: "🌐 MERN Stack (MongoDB, Express, React, Node.js)"
+    description: "🌐 MERN Stack (Mysql, Express, React, Node.js)"
   },
   {
     title: "⚒️ Técnico electrónico",
-    description: "⚡ Sistemas embebidos y circuitos digitales"
+    description: "⚡ Circuitos analogicos y digitales"
   }
 ];
 
 const LugaresEstudio = [
   {
     lugar: "🏛️ Universidad Nacional De Lanús",
-    periodo: "📅 2020 - Presente"
+    periodo: "📅 2021 - Presente"
   },
   {
     lugar: "💻 Digital House",
@@ -27,7 +27,7 @@ const LugaresEstudio = [
   },
   {
     lugar: "🏫 Escuela Técnica N°9 Lanús",
-    periodo: "📅 2014 - 2019"
+    periodo: "📅 2006 - 2012"
   }
 ];
 
