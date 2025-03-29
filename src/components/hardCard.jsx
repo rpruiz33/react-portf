@@ -1,19 +1,19 @@
 import React from 'react';
 import './hardCard.css';
 
-const HardCard = ({ index, items, item }) => {
+const HardCard = ({ index, items, item ,extraInfo,periodo }) => {
   return (
     <div className="cards-container ">
       <div className="card border-success mb-3 bg-custom" style={{ maxWidth: '18rem' }}>
         <div className="card-body text-success color-black">
           <h5 className="card-title c-black">
             <div className="c-b" key={index}>
-              {items}
+              {{items,periodo}}
             </div>
           </h5>
         </div>
         <div className="card-footer bg-w m-7">
-          <div key={index}>{item}</div>
+          <div key={index}>{item}{extraInfo}</div>
         </div>
       </div>
     </div>
