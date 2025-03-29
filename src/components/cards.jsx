@@ -11,7 +11,7 @@ const formacion = [
     description: "🌐 MERN Stack (MongoDB, Express, React, Node.js)"
   },
   {
-    title: "🛠️ Técnico electrónico",
+    title: "⚒️ Técnico electrónico",
     description: "⚡ Sistemas embebidos y circuitos digitales"
   }
 ];
@@ -35,7 +35,7 @@ const Cards = () => {
   return (
     <div className="d-flex justify-content-center align-items-center m-1 row row-cols-1 row-cols-md-4 g-2 p-4 m-8">
       <HardCard 
-        key={1} 
+        key={0} 
         items={formacion[0].title} 
         item={LugaresEstudio[0].lugar} 
         extraInfo={formacion[0].description}
@@ -43,7 +43,7 @@ const Cards = () => {
         emoji="👨‍💻"
       />
       <HardCard 
-        key={2} 
+        key={1} 
         items={formacion[1].title} 
         item={LugaresEstudio[1].lugar}
         extraInfo={formacion[1].description}
@@ -51,7 +51,7 @@ const Cards = () => {
         emoji="🖥️"
       />
       <HardCard 
-        key={3} 
+        key={2} 
         items={formacion[2].title} 
         item={LugaresEstudio[2].lugar}
         extraInfo={formacion[2].description}
